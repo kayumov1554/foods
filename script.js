@@ -9,11 +9,23 @@ $(".owl-carousel").owlCarousel({
     0: {
       items: 3,
     },
+    340: {
+      items: 1,
+    },
     380: {
       items: 1,
     },
+    550: {
+      items: 2,
+    },
     600: {
       items: 4,
+    },
+    700: {
+      items: 2,
+    },
+    850: {
+      items: 3,
     },
     1000: {
       items: 4,

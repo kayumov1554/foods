@@ -22,3 +22,60 @@
     font-size: 35px;
   }
 }
+
+@media screen and (min-width: 401px) and (max-width: 550px) {
+  .section1 .container .cards {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .container h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 551px) and (max-width: 700px) {
+  .section1 .container .cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .container .cards .card {
+    width: 300px;
+  }
+  .section1 .container .cards .card img {
+    width: 100%;
+  }
+  .section1 .container h1 {
+    font-size: 35px;
+  }
+  .section1 .container p {
+    font-size: 19px !important;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 850px) {
+  .section1 .container .cards {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .container .cards .card {
+    width: 300px;
+  }
+  .section1 .container .cards .card img {
+    width: 100%;
+  }
+  .section1 .container h1 {
+    font-size: 35px;
+  }
+  .section1 .container p {
+    font-size: 20px !important;
+  }
+}
