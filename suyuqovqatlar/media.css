@@ -10,3 +10,15 @@
     font-size: 35px;
   }
 }
+@media screen and (min-width: 381px) and (max-width: 380px) {
+  .section1 .container .cards {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .section1 .container h1 {
+    font-size: 35px;
+  }
+}
