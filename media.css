@@ -1,4 +1,4 @@
-@media screen and (max-width: 340px) {
+@media screen and (min-width: 340px) {
   nav .container {
     display: flex;
     width: 100%;
